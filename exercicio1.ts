@@ -27,7 +27,12 @@ if( forms ){
         const palavra = String(palavraInput.value);
         
         if (palavra != null) {
-            console.log(contVogais(palavra));
+            const result = document.getElementById('resultado');
+            if( result ){
+                result.innerText = `A palavra "${palavra}" tem ${contVogais(palavra)} vogais.`;
+            } else {
+                console.log(contVogais(palavra))
+            }
         }
     });
     
