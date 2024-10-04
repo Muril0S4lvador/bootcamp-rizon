@@ -200,3 +200,27 @@
   .hidden {
     display: none;
   }
+
+  .commits  {
+    max-width: 80rem;
+    background: white;
+    margin: 1rem auto 6.25rem;
+    padding: 2.5rem 1.875rem 1.375rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+  }
+
+  .commits a {
+    color: black;
+  }
+
+  .commits img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+
+  .commits h2 {
+    margin-bottom:  1rem;
+    font-size: 1.4rem;
+  }
