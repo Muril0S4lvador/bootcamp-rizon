@@ -26,7 +26,7 @@ var __read = (this && this.__read) || function (o, n) {
     }
     return ar;
 };
-Object.defineProperty(exports, "__esModule", { value: true });
+// Object.defineProperty(exports, "__esModule", { value: true });
 var lista = new Array();
 lista = [
     {
