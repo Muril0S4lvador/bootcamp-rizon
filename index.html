@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class = "container">
+      <div class = "forms">
+        <form id="Formulario">
+          <label class = "label" for="palavra">Digite uma palavra:</label>
+          <input type="text" id="palavra" name="palavra" required>
+          <button type="submit">Contar Vogais</button>
+        </form>
+        <strong id="resultado"></strong>
+      </div>
+    </div>
+
+    <div class = "container">
+      <div class="listagem">
+
+        <h2>Lista:</h2>
+        <ul class = "lista" id = "lista"></ul>
+
+      </div>
+      <div class="funcoes">
+
+        <div class="container-funcoes">
+          <div>
+              <div class="title">Funcional</div>
+              <div class="botao-funcao">
+                  <button id="get-nome-func">Get Nome</button>
+                  <button id="get-bio-func">Get Bio</button>
+                  <button id="upd-nome-func">Update Nome</button>
+                  <button id="upd-bio-func">Update Bio</button>
+                  <div class="botao-funcao-centro">
+                    <button id="rem-item-func">Remove item</button>
+                  </div>
+              </div>
+          </div>
+          <div>
+              <div class="title">Imperativo</div>
+              <div class="botao-funcao">
+                <button id="get-nome-imp">Get Nome</button>
+                <button id="get-bio-imp">Get Bio</button>
+                <button id="upd-nome-imp">Update Nome</button>
+                <button id="upd-bio-imp">Update Bio</button>
+                <div class="botao-funcao-centro">
+                  <button id="rem-item-imp">Remove item</button>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class = "entradas hidden" id = "entradas">
+          <h2>Digite as entradas</h2>
+          <input type="text" placeholder="Digite o id do item" class = "hidden" id = "input-id">
+          <input type="text" placeholder="Digite o texto para o item" class = "hidden" id = "input-string">
+          <footer>
+            <button type="submit" id = "enviar" onclick="selecionaFuncao()">Enviar</button>
+          </footer>
+        </div>
+
+        <div class="saida">
+          <h3>Saída</h3>
+          <p id = "saida-exec2"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./exercicio1.js"></script>
+    <script src="./exercicio2.js"></script>
+  </body>
+</html>
