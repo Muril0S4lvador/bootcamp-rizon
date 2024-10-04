@@ -1,3 +1,4 @@
+
 import { eventNames } from "process";
 import { isStringObject } from "util/types";
 
@@ -143,7 +144,6 @@ function updateNameImperativo(id : number, name : string) {
     }
   }
 }
-
 
 /*
   Neste espaço, atribui variáveis para todos os elementos interativos usados para o exercício 2.
