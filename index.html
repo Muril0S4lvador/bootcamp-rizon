@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body, input, button {
+        font-family: 'Roboto', sans-serif; 
+        font-weight: 400;
+        font-size: 1rem;
+      }
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(120deg, #011222ff, #0c607aff);
+        padding: 0.625rem;
+      }
+      .forms {
+        width: 100%;
+        max-width: 40rem;
+        background: #ffffff;
+        margin: 6.25rem auto 1.25rem;
+        padding: 2.5rem 1.875rem 4.375rem;
+        border-radius: 10px;
+        display: block;
+        /* justify-content: space-between; */
+      }
+
+      input {
+        flex: 1;
+        border: none;
+        outline: none;
+        background: #edeef0;
+        padding: 0.625rem;
+        font-weight: 0.875rem;
+        border-radius: 40px;
+      }
+
+      button {
+        border: none;
+        outline: none;
+        padding: 1rem 3.125rem;
+        background: #167a91ff;
+        color: #ffffff;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 40px;
+      }
+      strong {
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class = "container">
+      <div class = "forms">
+        <form id="Formulario">
+          <label class = "label" for="palavra">Digite uma palavra:</label>
+          <input type="text" id="palavra" name="palavra" required>
+          <button type="submit">Contar Vogais</button>
+        </form>
+        <strong id="resultado"></strong>
+      </div>
+    </div>
+  
+
+    <script src="./exercicio1.js"></script>
+  </body>
+</html>
