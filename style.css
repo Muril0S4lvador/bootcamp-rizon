@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body, input, button {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 1rem;
+    background: linear-gradient(120deg, #011222ff, #0c607aff);
+  }
+  .container {
+    width: 100%;
+    min-height: 10vh;
+    padding: 0.625rem;
+  }
+  .forms {
+    width: 100%;
+    max-width: 40rem;
+    background: #ffffff;
+    margin: 6.25rem auto 1.25rem;
+    padding: 2.5rem 1.875rem 4.375rem;
+    border-radius: 10px;
+    display: block;
+    justify-content: space-between; 
+  }
+
+  input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: #edeef0;
+    padding: 0.625rem;
+    font-weight: 0.875rem;
+    border-radius: 40px;
+    /* box-sizing: border-box; */
+  }
+
+  button {
+    border: none;
+    outline: none;
+    padding: 1rem 3.125rem;
+    background: #167a91ff;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: background 0.1s;
+  }
+  button:hover{
+    background: #0c607aff;
+  }
+
+  strong {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .listagem  {
+    max-width: 80rem;
+    background: white;
+    margin: 6.25rem auto 0.75rem;
+    padding: 2.5rem 1.875rem 1.375rem;
+    border-radius: 10px;
+  }
+
+  .listagem h2 {
+    padding-bottom:1rem ;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    /* border: black 1px solid; */
+  }
+
+  ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: 0.75rem 0.5rem 0.75rem 0.5rem;
+    user-select: none;
+    overflow-wrap: break-word;
+    border-radius: 8px;
+    border: #edeef0 0.5px solid;
+  }
+
+  .list-item p {
+    background: #edeef0;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    padding: 0.4rem 0.5rem 1rem 0.50rem;
+    max-width: 15rem;
+  }
+
+  .list-item h6 {
+    color: green;
+    font-size: 0.75rem;
+    justify-content: center;
+    padding-top: 0.5rem;
+    display: flex;
+
+  }
+
+  .list-item h3 {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    align-self: center;
+  }
+
+  .funcoes  {
+    max-width: 80rem;
+    background: white;
+    margin: 0.25rem auto .25rem;
+    padding: 2.5rem 1.875rem 1.375rem;
+    border-radius: 10px;
+  }
+
+  .container-funcoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .container-funcoes button{
+    width: 85%;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .botao-funcao {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    justify-items: center;
+  }
+  
+  .botao-funcao-centro {
+    grid-column: span 2;
+    justify-self: center;
+  }
+
+  .botao-funcao-centro button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .entradas {
+    margin-top: 2rem;
+    background: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    border-radius: 8px;
+    padding: 1.5rem 1rem;
+  }
+
+  .entradas input{
+    background: #e1e1e6;
+  }
+
+  .entradas button {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 0rem 1rem 0rem;
+  }
+
+  .entradas footer {
+    align-self: flex-end;
+    width: 7rem;
+  }
+
+  .saida {
+    background: #edeef0;
+    margin-top: 2rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    padding: 0.7rem 2rem 1rem 2rem;
+    max-width: 100%;
+  }
+
+  .saida p {
+    padding-top: 0.5rem;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .commits  {
+    max-width: 80rem;
+    background: white;
+    margin: 1rem auto 6.25rem;
+    padding: 2.5rem 1.875rem 1.375rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+  }
+
+  .commits a {
+    color: black;
+  }
+
+  .commits img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+
+  .commits h2 {
+    margin-bottom:  1rem;
+    font-size: 1.4rem;
+  }
