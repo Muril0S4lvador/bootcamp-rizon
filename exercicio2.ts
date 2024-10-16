@@ -121,9 +121,9 @@ function removeImperativo(id: number): void {
  * Atualiza a bio do item com a id passada. Itera sobre a iista, guardando o objeto e seu índice. Ao encontrar o objeto com a id especificada,
  * atualiza-o, acessando como array.
  */
-function updateBioImperativo(id: number, bio: string) {
-  for (let [index, item] of lista.entries()) {
-    if (item.id == id) {
+function updateBioImperativo(id : number, bio : string) {
+  for( let [index, item] of lista.entries() ) {
+    if( item.id == id ){
       lista[index].bio = bio;
     }
   }
@@ -134,9 +134,10 @@ function updateBioImperativo(id: number, bio: string) {
  * Atualiza o nome do item com a id passada. Itera sobre a iista, guardando o objeto e seu índice. Ao encontrar o objeto com a id especificada,
  * atualiza-o, acessando como array.
  */
-function updateNameImperativo(id: number, name: string) {
-  for (let [index, item] of lista.entries()) {
-    if (item.id == id) {
+function updateNameImperativo(id : number, name : string) {
+  for( let [index, item] of lista.entries() ) {
+    if( item.id == id ){
+
       lista[index].name = name;
     }
   }
